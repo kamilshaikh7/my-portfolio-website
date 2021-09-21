@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+:root{                          /*css variables*/
+    --primary-color: white;
+    --secondary-color: black;
+}
+.dark-mode{
+    --primary-color: black;
+    --secondary-color: white;
+}
+
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: var(--primary-color);
+    font-family: sans-serif;
+}
+
+nav{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 95px;
+    cursor: pointer;   
+    margin-left: 20px; 
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 25px;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 19px;
+}
+nav ul li a:hover{
+    color: orangered;
+}
+
+.info{
+    margin: 200px 100px;
+}
+.info h1{
+    font-size: 35px;
+    padding-bottom: 30px;
+    color: var(--secondary-color);
+}
+span{
+    color: orangered;
+}
+.info p{
+    padding-bottom: 40px;
+    font-size: 17px;
+    color: var(--secondary-color);
+}
+.info a{
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.image-box{
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    right: 260px;
+    bottom: 0;
+}
+.image-box img{
+    height: 90%;
+    position: absolute;
+    left: 70%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: left 1s, bottom 1s;
+}
+.main-img{
+    margin-left: 120px;
+}
+.image-box:hover .main-img{
+    left: 30%;
+}
+.image-box:hover .back-img{
+    bottom: 35px;
+}
+
+.social-links{
+    margin-top: -70px;
+    margin-left: 100px;
+    display: flex;
+}
+.social-links h3{
+    margin-right: 20px;
+    font-size: 19px;
+    color: var(--secondary-color);
+}
+.social-links a{
+    font-size: 25px;
+    color: var(--secondary-color);
+    margin-right: 20px;
+}
+.social-links a:hover{
+    color: orangered;
+
+}

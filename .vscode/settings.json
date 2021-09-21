@@ -1,0 +1,15 @@
+{
+    // "svn.ignoreMissingSvnWarning": true,
+    // "launch": {
+
+    //     "configurations": [],
+    //     "compounds": []
+    // }
+    
+        // Is git enabled
+        "git.enabled": true,
+    
+        // Path to the git executable
+        "git.path": "C:\\git.exe"
+    
+}
