@@ -4,3 +4,5 @@ I built this website using HTML/CSS and JavaScript. You can find my CV here. I u
 # Images of my project
 
 ![](Screenshot%20(6).png)
+
+Dark mode: ![](Screenshot%20(7).png)
